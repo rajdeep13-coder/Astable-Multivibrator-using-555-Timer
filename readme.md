@@ -73,5 +73,25 @@ Astable_555_PCB/
 
 ---
 
+## Automation
+To make release prep repeatable, this project includes a PowerShell packaging script:
+
+- Script: `scripts/package_release.ps1`  
+- Purpose: Validates required project files, gathers optional outputs (ERC/report/Gerbers/drill/BOM-like files), and creates a timestamped ZIP with a manifest.  
+
+Run from project root:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\package_release.ps1
+```
+
+Optional custom output folder:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\package_release.ps1 -OutputDir artifacts
+```
+
+---
+
 ## License
 This project is open-source and available under the MIT License.

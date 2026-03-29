@@ -1,0 +1,5 @@
+# Generated release packages
+releases/
+
+# Local editor history
+.history/

@@ -1,0 +1,32 @@
+Info: Processing symbol 'C2:'.
+Info: Processing symbol 'D1:'.
+Info: Processing symbol 'R1:'.
+Info: Processing symbol 'R2:'.
+Info: Processing symbol 'R3:'.
+Info: Processing symbol 'U1:Package_DIP:DIP-8_W7.62mm'.
+Added U1 (footprint 'Package_DIP:DIP-8_W7.62mm').
+Changed REF** reference designator to U1.
+Changed U1 value from DIP-8_W7.62mm to LM555xN.
+Updated U1 symbol association from  to /410ed659-7c3e-4c53-b12a-2459425d3019.
+Updated U1 fields.
+Updated U1 sheetname to '/'.
+Updated U1 sheetfile to 'Astable_555_PCB.kicad_sch'.
+Updated U1 footprint filters to 'DIP*W7.62mm*'.
+Add net Net-(U1-THRES).
+Connected U1 pin 2 to Net-(U1-THRES).
+Add net GND.
+Connected U1 pin 1 to GND.
+Connected U1 pin 6 to Net-(U1-THRES).
+Add net VCC.
+Connected U1 pin 8 to VCC.
+Add net Net-(U1-OUT).
+Connected U1 pin 3 to Net-(U1-OUT).
+Add net Net-(U1-DISCH).
+Connected U1 pin 7 to Net-(U1-DISCH).
+Add net unconnected-(U1-CONT-Pad5).
+Connected U1 pin 5 to unconnected-(U1-CONT-Pad5).
+Connected U1 pin 4 to VCC.
+Updated U1 unit metadata.
+
+
+Info: Total warnings: 0, errors: 0.
